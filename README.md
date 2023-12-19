@@ -1,8 +1,14 @@
-# React + Vite
+# Music-app on React and Vite.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# To launch a website, you first need to:
 
-Currently, two official plugins are available:
+Download nodemon from this site 👇
+## 1. https://nodejs.org/en
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Write in the terminal:
+## 2. `npm init`
+
+## 3. `npm install -g nodemon`
+
+launching programs:
+## 4. `npm run dev`
