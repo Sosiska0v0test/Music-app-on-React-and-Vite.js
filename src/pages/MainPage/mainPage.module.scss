@@ -1,0 +1,90 @@
+.search {
+	flex: 1;
+}
+
+.top_search {
+	text-align: center;
+}
+
+.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	object-fit: cover;
+}
+
+.input {
+	width: 50%;
+	margin: 10px 50px;
+	outline: none;
+	color: #232020;
+
+	& > * {
+		text-align: center !important;
+		color: #232020;
+		padding: 14px;
+		font-size: 18px !important;
+	}
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	flex: 1;
+	margin: 50px 0;
+	max-height: calc(100vh - 195px);
+	overflow: auto;
+	padding: 0 60px;
+	border-radius: 20px;
+	margin-bottom: 25px;
+}
+
+/* ButtonStyles.module.scss */
+
+.btn__Fon {
+	padding: 10px 60px;
+	font-size: 16px;
+	cursor: pointer;
+	color: #4e4b4b !important;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: background 0.3s ease;
+	font-size: small;
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 10px;
+		height: 10px;
+		background-color: #fff;
+		border-radius: 50%;
+		opacity: 0;
+		transition: all 0.3s ease-out;
+	}
+
+	&:hover {
+		color: #ff595e !important;
+		&:before {
+			width: 200px;
+			height: 200px;
+			opacity: 0.2;
+		}
+	}
+}
+
+.container {
+	text-align: center;
+	justify-content: space-between;
+}
+
+.profile_icon{
+	size: 100px !important;
+	color: #4e4b4b !important;
+}
